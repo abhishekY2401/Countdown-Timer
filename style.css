@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+body {
+  background-color: #181828;
+  font-family: poppins;
+}
+.countdown {
+  height: 22vh;
+}
+.countdown h1 {
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+}
+.time-format {
+  display: flex;
+  justify-content: space-around;
+}
+.set-day,
+.set-hours,
+.set-mins,
+.set-sec {
+  background-color: #ffe135;
+  width: 14%;
+  height: 15rem;
+  border-radius: 20px;
+}
+.time-format h3 {
+  text-align: center;
+}
+h2 {
+  font-family: poppins;
+  border: 3px solid gray;
+  font-size: 5vh;
+  text-align: center;
+  padding: 5px;
+  margin: 26px;
+  border-radius: 20px;
+}
+.text {
+  width: auto;
+  height: 15vh;
+}
+.text p {
+  color: white;
+  text-align: center;
+  font-size: 4vh;
+}
+
+@media screen and (max-width: 600px) {
+  .time-format {
+    flex-direction: column;
+    margin-left: 6pc;
+  }
+  .set-day,
+  .set-hours,
+  .set-mins,
+  .set-sec {
+    width: 12pc;
+    height: 12rem;
+    margin-top: 18px;
+  }
+}
